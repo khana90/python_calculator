@@ -1,4 +1,5 @@
 #calculator
+from art import logo
 def add(n1,n2):
   return n1+n2
 
@@ -17,6 +18,7 @@ operations = {
   "*":multiply,
   "/":divide
 }
+print(logo)
 num1 = int(input("What's the first number?: "))
            
 for symbol in operations:
